@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+body{
+	margin:0px;
+	padding:0px;
+	width:device-width;
+	
+}
+
+/*0 Début enad_accueil.jsp*/
+
+.enad_background_image_admin{
+	
+	width:100%;
+	
+	
+}
+
+.barredeprogression{
+	position:fixed;
+        top:70%;
+        z-index:2;
+        display:inline-block;
+        background-color:transparent;
+        height:100px;
+        color:white;
+        width:100%;
+        font-family:Agency FB;
+        font-size:4em;
+	
+}
+
+.image{
+	width:100%;
+	height:100%;
+	position:fixed;
+    right:0px;
+    left:0px;
+    bottom:0px;
+    top:0px;
+    z-index:1;
+    display:inline-block;
+	
+	
+}

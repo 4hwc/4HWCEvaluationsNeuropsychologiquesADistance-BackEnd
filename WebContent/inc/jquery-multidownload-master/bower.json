@@ -1,0 +1,14 @@
+{
+  "name": "jquery-multidownload",
+  "version": "4.0.2",
+  "main": [ "./jquery-multidownload.js" ],
+  "ignore":
+  [
+    "test",
+    "*jquery.json",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": { "jquery": "latest" }
+}

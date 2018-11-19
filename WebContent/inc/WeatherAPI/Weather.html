@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML,JavaScript">
+<meta name="author" content="WebCodeGeeks.com">
+<title>Your Weather</title>
+<link rel="stylesheet" href="WeatherStyle.css">
+<script src="WeatherWidget.js"></script>
+</head>
+<body onload="getLocation()">
+	<table class="myTable">
+		<tr>
+			<th>Location</th>
+			<th>Current Weather</th>
+
+		</tr>
+		<tr>
+			<td><div id="location"></div></td>
+			<td><div id="weatherNow"></div></td>
+
+		</tr>
+
+
+	</table>
+	<table class="ForeCastTable">
+		<tr>
+			<th id="day1">Day 1 Forecast</th>
+			<th id="day2">Day 2 Forecast</th>
+			<th id="day3">Day 3 Forecast</th>
+			<th id="day4">Day 4 Forecast</th>
+			<th id="day5">Day 5 Forecast</th>
+
+		</tr>
+		<tr>
+			<td><div id="day1div"></div></td>
+			<td><div id="day2div"></div></td>
+			<td><div id="day3div"></div></td>
+			<td><div id="day4div"></div></td>
+			<td><div id="day5div"></div></td>
+		</tr>
+
+
+	</table>
+</body>
+</html>
