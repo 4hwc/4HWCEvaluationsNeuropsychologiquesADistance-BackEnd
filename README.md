@@ -2,6 +2,8 @@
 
 ENAD (Evaluations Neuropsychologiques A Distance)
 
+[![Build Status](https://travis-ci.com/4hwc/4HWCEvaluationsNeuropsychologiquesADistance.svg)](https://travis-ci.com/4hwc/4HWCEvaluationsNeuropsychologiquesADistance)
+
 What is ENAD ?
 
 ENAD is  a web application that allows doctors to send neuropsychological tests to  patients. While  patients perform the tests,  doctors see them in real time. ENAD is a telemedicine device for neurospychological diseases. Despite the distance, it helps doctors to make a better diagnosis for patients.
