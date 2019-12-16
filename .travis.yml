@@ -27,6 +27,8 @@ script:
   - mvn deploy
 
 after_success:
+  #Generating Site
+  - mvn site
 
   - bash <(curl -s https://codecov.io/bash)
   # SonarCloud
