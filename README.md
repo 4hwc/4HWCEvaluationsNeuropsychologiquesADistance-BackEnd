@@ -5,6 +5,7 @@ ENAD (Evaluations Neuropsychologiques A Distance)
 [![Build Status](https://travis-ci.com/4hwc/4HWCEvaluationsNeuropsychologiquesADistance-BackEnd.svg)](https://travis-ci.com/4hwc/4HWCEvaluationsNeuropsychologiquesADistance-BackEnd)
 [![docker build](https://img.shields.io/docker/cloud/build/4hwc/enad-backend-api)](https://hub.docker.com/repository/docker/4hwc/enad-backend-api)
 [![codecov](https://codecov.io/gh/4hwc/4HWCEvaluationsNeuropsychologiquesADistance-BackEnd/branch/master/graph/badge.svg)](https://codecov.io/gh/4hwc/4HWCEvaluationsNeuropsychologiquesADistance-BackEnd)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=io.4hwc:enad&metric=alert_status)](https://sonarcloud.io/dashboard/index/io.4hwc:enad)
 
 
 ## Main
