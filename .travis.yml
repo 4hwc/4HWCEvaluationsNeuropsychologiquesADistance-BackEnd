@@ -8,6 +8,13 @@ jdk:
 services:
 # Linking Travis CI & Docker
   - docker
+# SonarCloud
+addons:
+  sonarcloud:
+    organization: "4hwc-4hwc-autonomous-car"
+    token:
+      secure: $SONAR_TOKEN # encrypted value of your token
+
 before_install:
   - echo "$DOCKER_PASSWORD" | docker login  -u "$DOCKER_USERNAME" --password-stdin
   - docker pull openjdk:8-jdk-alpine
@@ -22,3 +29,6 @@ script:
 after_success:
 
   - bash <(curl -s https://codecov.io/bash)
+  # SonarCloud
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
