@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>io.4hwc</groupId>
 	<artifactId>enad</artifactId>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>enad</name>
 	<description>ENAD (Evaluations Neuropsychologiques A Distance) is a web application that allows doctors to send neuropsychological tests to patients.</description>
